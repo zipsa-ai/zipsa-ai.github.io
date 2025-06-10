@@ -1,0 +1,19 @@
+baseURL = '/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+enableEmoji = true
+title = '서울 집사'
+copyright = 'Ziin AI'
+theme = 'hugo-theme-itheme'
+pagerSize = 5
+[params]
+  defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+  favicon = "img/zipsa.png"
+  email = '017.bentley@gmail.com'
+  [[params.socialMedia]]
+    name = 'Github'
+    url = 'https://github.com/ziin-ai'
+  [[params.blogroll]]
+    name = 'Ziin AI'
+    url = 'https://ziin.ai/'
