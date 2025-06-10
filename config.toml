@@ -11,6 +11,7 @@ pagerSize = 5
   defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
   favicon = "img/zipsa.png"
   email = '017.bentley@gmail.com'
+  googleAnalytics = "G-N97HCMZQWC"  # 여기에 실제 Google Analytics 측정 ID를 입력하세요
   [[params.socialMedia]]
     name = 'Github'
     url = 'https://github.com/ziin-ai'
