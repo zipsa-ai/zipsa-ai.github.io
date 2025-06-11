@@ -18,6 +18,17 @@
 
     <link rel="stylesheet" href="{{ "css/search.css" | relURL }}" />
 
+    <!-- Google Analytics -->
+    {{ if .Site.Params.googleAnalytics }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ .Site.Params.googleAnalytics }}');
+    </script>
+    {{ end }}
+
     <!-- algolia related style -->
     {{ if site.Params.algolia.enabled }}
     <link rel="stylesheet" href="{{ "css/autocomplete-theme-classic.css" | relURL }}" />
